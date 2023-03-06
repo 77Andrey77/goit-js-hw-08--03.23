@@ -2,7 +2,7 @@
   "name": "goit-js-hw-08--03.23",
   "version": "1.0.0",
   "description": "Этот проект был создан при помощи Parcel. Для знакомства и настройки дополнительных возможностей [обратись к документации](https://parceljs.org/).",
-  "main": "index.js",
+  
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08--03.23/"
@@ -25,6 +25,9 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
   "homepage": "https://77andrey77.github.io/goit-js-hw-08--03.23/"
 }
