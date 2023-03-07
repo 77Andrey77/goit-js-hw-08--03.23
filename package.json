@@ -2,9 +2,8 @@
   "name": "goit-js-hw-08--03.23",
   "version": "1.0.0",
   "description": "Этот проект был создан при помощи Parcel. Для знакомства и настройки дополнительных возможностей [обратись к документации](https://parceljs.org/).",
-  
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html --open chrome",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08--03.23/"
   },
   "repository": {
@@ -17,7 +16,8 @@
     "url": "https://github.com/77Andrey77/goit-js-hw-08--03.23/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
